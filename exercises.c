@@ -78,7 +78,7 @@ Vector * crearVector(int n) {
   n /= 2;
   Vector *x = (Vector *) calloc(n, sizeof(Vector));
   if(x == NULL) exit(EXIT_FAILURE);
-  return 0;
+  return x;
 }
 
 /*
