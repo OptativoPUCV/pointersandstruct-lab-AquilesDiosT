@@ -79,6 +79,7 @@ Vector * crearVector(int n) {
   if(datos == NULL) exit(EXIT_FAILURE);
   Vector *x = (Vector *) malloc(sizeof(int) * n);
   if(x == NULL) exit(EXIT_FAILURE);
+  x->capacidad = n;
   return x;
 }
 
