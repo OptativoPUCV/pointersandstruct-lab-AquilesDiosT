@@ -77,7 +77,10 @@ typedef struct {
 Vector * crearVector(int n) {
   Vector *x = (Vector *) malloc(sizeof(Vector) * n);
   if(x == NULL) exit(EXIT_FAILURE);
-  
+  for(int i = 0 ; i < n ; i++) {
+    x[i].datos = 0;
+    x[i].capacidad = 0;
+  }
   return x;
 }
 
