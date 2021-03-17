@@ -314,3 +314,8 @@ Wed Mar 17 11:55:56 UTC 2021:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 c3ac398
+Wed Mar 17 11:57:03 UTC 2021: 
+ exercises.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  0|0
+065c65a
